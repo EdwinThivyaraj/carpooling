@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "edwinthivyaraj",
+      "email": "edwinthivyaraj@outlook.com",
+      "mobile": 9751778902,
+      "password": "edwin",
+      "carmodel": "polo"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Edwin Thivyaraj",
+      "from": "koramangala",
+      "to": "whitefield",
+      "car": "polo",
+      "ratings": 4.5,
+      "seatsAvailable": 3,
+      "mobile": 9751778902
+    },
+    {
+      "id": 2,
+      "name": "Chandrasekar",
+      "from": "koramangala",
+      "to": "whitefield",
+      "car": "polo",
+      "ratings": 4.5,
+      "seatsAvailable": 3,
+      "mobile": 9751778902
+    },
+    {
+      "id": 3,
+      "name": "Jai Aravid",
+      "from": "koramangala",
+      "to": "whitefield",
+      "car": "polo",
+      "ratings": 4.5,
+      "seatsAvailable": 3,
+      "mobile": 9751778902
+    },
+    {
+      "id": 4,
+      "name": "Jotish",
+      "from": "bommanahalli",
+      "to": "koramangala",
+      "car": "polo",
+      "ratings": 4.5,
+      "seatsAvailable": 3,
+      "mobile": 9751778902
+    },
+    {
+      "id": 5,
+      "name": "Deepan",
+      "from": "bommanahalli",
+      "to": "koramangala",
+      "car": "polo",
+      "ratings": 4.5,
+      "seatsAvailable": 3,
+      "mobile": 9751778902
+    },
+    {
+      "id": 6,
+      "name": "Lokesh",
+      "from": "silkboard",
+      "to": "marathahalli",
+      "car": "polo",
+      "ratings": 4.5,
+      "seatsAvailable": 3,
+      "mobile": 9751778902
+    },
+    {
+      "id": 7,
+      "name": "Tilak",
+      "from": "silkboard",
+      "to": "marathahalli",
+      "car": "polo",
+      "ratings": 4.5,
+      "seatsAvailable": 3,
+      "mobile": 9751778902
+    },
+    {
+      "id": 8,
+      "name": "Srivalsan",
+      "from": "silkboard",
+      "to": "kasthuri nagar",
+      "car": "polo",
+      "ratings": 4.5,
+      "seatsAvailable": 3,
+      "mobile": 9751778902
+    }
+  ]
+}

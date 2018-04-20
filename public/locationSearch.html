@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car pooling - Location Search</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/app.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<div class="pool-box">
+		<div class="pool-title">
+			<h2> 
+				<i class="fas fa-taxi"></i>
+				<span class="heading">PICK A RIDE</span>
+				<i class="fas fa-user pull-right"></i>
+			</h2>
+		</div>
+		<div class="ride-pool">
+			<form>
+				<div class="ride-from col-md-6">
+					<div class="form-group">
+						<label for="from">Start From</label>
+						<input type="text" class="form-control" id="from" placeholder="Start Location">
+					</div>
+				</div>
+				<div class="ride-to col-md-6">
+					<div class="form-group">
+						<label for="to">Destination</label>
+						<input type="text" class="form-control" id="to" placeholder="Destination Location">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="profile-list">
+			<div id="append"></div>
+			<div class="col-md-12 pool-button">
+				<button type="submit" disabled="disabled" id="confirm-ride" class="btn btn-default btn-disbl">CONFIRM RIDE</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

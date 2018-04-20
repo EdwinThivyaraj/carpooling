@@ -1,0 +1,173 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	font-weight: 500
+}
+input:hover,
+input:active,
+input:focus,
+label:focus {
+	outline: none;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.pool-box {
+	width: 920px;
+	margin: 80px auto;
+	border: 1px solid #ccc;
+}
+@media (max-width: 767px) {
+	.pool-box {
+		width: 100%;
+		border: 1px solid #ccc;
+	}
+}
+.pool-title {
+	border-bottom: 1px solid #ccc;
+}
+.pool-title h2 {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 15px;
+	margin: 0;
+}
+.pool-title .fa-taxi{
+	font-size: 28px;
+	color: #808080;
+}
+.pool-title .fa-user {
+	color: #808080;
+	font-size: 26px;
+}
+.pool-title .heading {
+	color: #636477;
+}
+.pool-form {
+	padding: 60px 160px;
+}
+@media (max-width: 767px) {
+	.pool-form {
+		padding: 60px 100px;
+	}
+}
+@media (max-width: 450px) {
+	.pool-form {
+		padding: 40px 20px;
+	}
+}
+.form-group input {
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #ccc;
+	padding: 0;
+	box-shadow: none;
+}
+#errorMsg {
+	color: red;
+}
+.btn-pool {
+	color: #fff;
+	background-color: #169bd4;
+	border-color: #169bd4;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 8px 36px; 
+}
+.btn-pool:hover {
+	background-color: #24a5dc;
+	border-color: #24a5dc;
+	color: #fff;
+}
+.btn-disbl {
+	color: #fff;
+	background-color: #828282;
+	border-color: #c5c5c5;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 8px 36px;
+}
+.btn-disbl:hover, .btn[disabled]:hover {
+	color: #fff;
+	background-color: #828282;
+	border-color: #c5c5c5;
+} 
+.pool-button {
+	margin-top: 30px; 
+	text-align: center;
+}
+.forgot-password-link {
+	color: #169bd4;
+	font-weight: bold;
+}
+.no-account {
+	margin-top: 30px; 
+}
+
+.ride-pool {
+	background: #ababab;
+	padding: 10px;
+	height: 200px;
+}
+.ride-from, .ride-to {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 15px 20px 5px 20px;
+}
+.profile-list {
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+.profile-list .card {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 15px 10px 5px 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+}
+.profile-pic {
+	width: 60px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	height: 60px;
+	line-height: 66px;
+	background: #ccc;
+	border-radius: 50%;
+}
+.profile-pic .fa-user {
+	font-size: 24px;
+	text-align: center;
+}
+.profile-name h3 {
+	margin: 0;
+	font-size: 18px;
+	margin-left: 12px;
+}
+.profile-rating p {
+	margin: 0;
+}
+.route-n-car {
+	display: inline-block;
+}
+.route-n-car .route {
+	font-size: 12px;
+	padding-top: 10px;
+	margin-left: 12px;
+}
+.route-n-car .car {
+	margin-left: 12px;
+}
+.fa-check {
+	font-size: 23px;
+}
+.fa-phone {
+	font-size: 40px;
+	color: green;
+}
+.call {
+	margin-top: 16px;
+}
